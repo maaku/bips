@@ -147,7 +147,7 @@ confirms.
 
 A reference implementation is provided in the following git repository:
 
-https://github.com/maaku/bitcoin/tree/medianpasttimelock
+https://github.com/maaku/bitcoin/tree/checksequenceverify
 
 
 ==Deployment==
@@ -161,9 +161,16 @@ block do have nVersion = 4, nVersion = 3 blocks become invalid, and all
 further blocks enforce the new rules.
 
 It is recommended that this soft-fork deployment trigger include other 
-related proposals for improving Bitcoin's lock-time capabilities, including 
-[https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki BIP 65]: OP_CHECKLOCKTIMEVERIFY, 
-[https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki BIP 68]: Consensus-enforced transaction replacement signalled via sequence numbers, and [https://github.com/bitcoin/bips/blob/master/bip-00XX.mediawiki BIP XX]: Median-Past-Time-Lock.
+related proposals for improving Bitcoin's lock-time capabilities, including:
+
+[https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki BIP 65]: 
+OP_CHECKLOCKTIMEVERIFY, 
+
+[https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki BIP 68]: 
+Consensus-enforced transaction replacement signalled via sequence numbers,
+
+and [https://github.com/bitcoin/bips/blob/master/bip-00XX.mediawiki BIP XX]: 
+Median-Past-Time-Lock.
 
 
 ==Upgrade and Testing Plan==
