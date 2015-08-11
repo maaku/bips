@@ -1,7 +1,8 @@
 <pre>
   BIP: XX
   Title: OP_CHECKSEQUENCEVERIFY
-  Author: BtcDrak <btcdrak@gmail.com>
+  Authors: BtcDrak <btcdrak@gmail.com>
+           Mark Friedenbach <mark@friedenbach.org>	
   Status: Draft
   Type: Standards Track
   Created: 2015-08-10
@@ -118,7 +119,7 @@ semantics and detailed rationale for those semantics.
         return true;
     }
 
-https://gist.github.com/btcdrak/c32d2ea3c7193cab3d47
+https://github.com/btcdrak/bips/blob/bip-csv/bip-csv/example.cpp
 
 
 ==Example: Escrow with Timeout==
